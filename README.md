@@ -6,9 +6,16 @@ Simple boilerplate with simple [github actions](https://docs.github.com/en/actio
 ```
 git clone https://github.com/tuuganbekov/djangotestapp.git
 ```
-2. Activate virtual environment
+2. Create and activate virtual environment. You can use venv.
+For linux and MacOS users:
 ```
 python3 -m venv env
+source env/bin/activate
+```
+For windows users:
+```
+python -m venv env
+call env\Scripts\activate
 ```
 3. Install requirements via [pip](https://pypi.org/)
 ```
