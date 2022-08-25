@@ -11,6 +11,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      SECRET_KEY: django-insecure-s3q0y_3eq^p8&&ec-j33&0xs3=$2c(3hbvqu^p(b-&vfo!53m1
+      DEBUG: True
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.7
